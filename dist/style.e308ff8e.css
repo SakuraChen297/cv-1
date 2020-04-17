@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#html {
+  word-break: break-all;
+}
+#div2 {
+  position: fixed;
+  top: 30px;
+  right: 10%;
+}
+#div2::before {
+  position: absolute;
+  content: "";
+  display: block;
+}
+#div2::after {
+  position: absolute;
+  content: "";
+  display: block;
+}
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+
+  #wrapper {
+    height: 50vh;
+  }
+
+  #div2 {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
